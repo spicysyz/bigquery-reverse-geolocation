@@ -1,17 +1,17 @@
 # [START setup]
 env:
 # Change to your project ID
-    PROJECT_ID: 'your-project-id'
+    PROJECT_ID: 'traffic-telemetry-224122'
 # Change to  datasetid
     DATASET_ID: 'sandiego_freeways'
 # Change to tableid
     TABLE_ID: 'geocoded_journeys'
 # Change this to your pubsub topic
-    PUBSUB_TOPIC: 'projects/your-project-id/topics/traffic'
+    PUBSUB_TOPIC: 'projects/traffic-telemetry-224122/topics/traffic'
 # Change the following to your rootdir
-    ROOTDIR: '/tmp/creds/data'
+    ROOTDIR: 'resources/data'
 # Change the following to your pull subscription    
-    SUBSCRIPTION: 'projects/your-project-id/subscriptions/mysubscription'
+    SUBSCRIPTION: 'projects/traffic-telemetry-224122/subscriptions/mysubscription'
 # Change to your Google Maps API Key, see https://developers.google.com/maps/web-services/
-    MAPS_API_KEY: 'Your-server-key'
+    MAPS_API_KEY: 'AIzaSyD04QMHlPMQxzHxtMxt31buiYI9jCREtFE'
 # [END setup]
